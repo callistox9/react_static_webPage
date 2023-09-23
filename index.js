@@ -48,7 +48,7 @@ return(
 ReactDOM.render(TemporaryFunction, document.getElementById("root"));
 */
 
-
+/*
 function page()
 {
 
@@ -64,13 +64,70 @@ return(
         <li>I love the Way you lie</li>
         <li>I will be a better Person</li>
         <li>What do you mean</li>
+        </ol>
         <footer>
            <small> Developed By Soumya SOurav Guha
             All rights Reserved</small>
         </footer>
-    </ol>
+    
     </div>
 )
 }
 ReactDOM.render(page, document.getElementById(root));
 
+*/
+
+/*
+What is a React component?
+>>
+*A function that returns React Elements.
+
+*Components are independent and reusable bits of code.
+
+*They serve the same purpose as JavaScript functions,
+ but work in isolation and return HTML.
+
+*Components come in two types, Class components and Function components.
+*/
+function Header(){
+return(
+
+<header>
+<nav>
+    <img src="./react_logo.png" width="40px"></img>
+    </nav>
+    </header>
+
+)}
+function Footer()
+{
+    return(<footer>
+        <small> Developed By Soumya SOurav Guha
+        All rights Reserved</small>
+    </footer>)
+}
+
+function OrderedList()
+{
+    
+    return(
+
+    <div>
+        <h1>I am Excited to learn React</h1>
+        <ol>
+            <li>I love the Way you lie</li>
+            <li>I will be a better Person</li>
+            <li>What do you mean</li>
+            </ol>
+            </div>
+    )
+}
+
+function Page()
+{
+<div>
+    <Header/>
+    <OrderedList/>
+    <footer/>
+</div>
+}
