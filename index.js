@@ -89,6 +89,9 @@ What is a React component?
 
 *Components come in two types, Class components and Function components.
 */
+import Header from "./Header"
+import Header from "./Footer"
+import Header from "./OrderedList"
 function Header(){
 return(
 
